@@ -13,6 +13,13 @@
 			"version": "3.0.0"
 		},
 		"ghcr.io/flexwie/devcontainer-features/op:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"hashicorp.terraform"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
