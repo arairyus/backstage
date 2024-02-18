@@ -12,7 +12,12 @@
 		"ghcr.io/mickeahlinder/devcontainer-features/tfenv:1": {
 			"version": "3.0.0"
 		},
-		"ghcr.io/flexwie/devcontainer-features/op:1": {}
+		"ghcr.io/flexwie/devcontainer-features/op:1": {},
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "lts",
+			"nvmVersion": "latest"
+		}
 	},
 	"customizations": {
 		"vscode": {
